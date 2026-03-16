@@ -24,3 +24,7 @@ print(calculator.subtract(10,5))
 print(calculator.multiply(10,5))
 print(calculator.divide(10,5))
 print(calculator.square_root(25))
+def divide(self, a, b):
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a / b
